@@ -1,6 +1,8 @@
 import React, { useContext, useState, useEffect } from "react"
 import { ThemeContext } from "./ThemeContextProvider"
 import Switch from "react-switch"
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faSun,faMoon} from '@fortawesome/free-solid-svg-icons'
 
 const ThemeSwitch = () => {
   const { theme, setTheme } = useContext(ThemeContext)
@@ -31,6 +33,44 @@ const ThemeSwitch = () => {
         <Switch
           checked={themeIn === "light" ? false : true}
           onChange={handleThemeToggle}
+          offColor="#212529"
+          onColor="#fff"
+          offHandleColor="#fff"
+          onHandleColor="#212529"
+          handleDiameter={28}
+          height={40}
+          width={70}
+          uncheckedIcon={
+            <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "100%",
+              fontSize: 15,
+              color: "orange",
+              paddingRight: 2
+            }}
+            >
+              <FontAwesomeIcon icon={faSun} size="1x" />
+            </div>
+          }
+          checkedIcon={
+            <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "100%",
+              fontSize: 15,
+              color: "black",
+              paddingRight: 2
+
+            }}
+            >
+              <FontAwesomeIcon icon={faMoon} size="1x" />
+            </div>
+          }
           className="react-switch"
         />
       </div>
