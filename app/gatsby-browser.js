@@ -7,3 +7,10 @@
 // You can delete this file if you're not using it
 
 import './src/styles/global.css';
+
+import React from "react";
+import ThemeContextProvider from "./src/components/ThemeSwitch/ThemeContextProvider";
+
+export const wrapRootElement = ({ element }) => {
+  return <ThemeContextProvider>{element}</ThemeContextProvider>;
+};

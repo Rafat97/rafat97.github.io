@@ -11,7 +11,8 @@ import PropTypes from "prop-types"
 
 // import Header from "./header"
 import "./layout.css"
-import ThemeToggle from "./ThemeToggle"
+// import ThemeToggle from "./ThemeSwitch/ThemeToggle"
+import ThemeSwitch from "./ThemeSwitch/ThemeSwitch"
 
 const Layout = ({ children }) => {
 
@@ -34,7 +35,8 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
         }}
       >
-        <ThemeToggle/>
+        {/* <ThemeToggle/> */}
+        <ThemeSwitch />
         <main>{children}</main>
         {/* <footer
           style={{
