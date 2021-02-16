@@ -9,7 +9,7 @@ import {HeroSection} from "../components/HeroSection"
 const IndexPage = () => (
  
   <Layout>
-    <SEO title="Welcome to Rafat's World" />
+    <SEO title="Rafat's World" />
     <HeroSection />
      
     {/*<h1>Hi people</h1>

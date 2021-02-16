@@ -11,6 +11,7 @@ import PropTypes from "prop-types"
 
 // import Header from "./header"
 import "./layout.css"
+import ThemeToggle from "./ThemeToggle"
 
 const Layout = ({ children }) => {
 
@@ -28,11 +29,12 @@ const Layout = ({ children }) => {
     <>
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div 
-      className="font-mono"
+        className="h-screen bg-white font-mono dark:bg-gray-800 "
         style={{
           margin: `0 auto`,
         }}
       >
+        <ThemeToggle/>
         <main>{children}</main>
         {/* <footer
           style={{

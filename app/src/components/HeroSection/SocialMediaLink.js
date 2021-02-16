@@ -11,7 +11,6 @@ import {
 import Socialmedia from "../../images/HeroSection/socialmedia.json"
 
 const SocialMediaLink = () => {
-  console.log(Socialmedia)
   return (
     <>
       <div className=" justify-center flex-col">

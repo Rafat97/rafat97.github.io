@@ -22,7 +22,7 @@ function HeroSection() {
 
   return (
     <>
-      <section className="text-gray-600">
+      <section className="text-gray-600 dark:text-gray-300 ">
         <div className="container mx-auto flex px-5 py-10 items-center justify-center flex-col">
           <Img
             fluid={profilePicImage.file.childImageSharp.fluid}
@@ -36,7 +36,7 @@ function HeroSection() {
           /> */}
 
           <div className="text-center lg:w-3/3 w-full">
-            <div className="title-font sm:text-4xl text-3xl mb-7  text-gray-900 font-bold">
+            <div className="title-font sm:text-4xl text-3xl mb-7 font-bold">
               Hi, This is  <Typewriter
                 options={{
                     strings: ['Emdadul Haque', 'Rafat'],
@@ -48,6 +48,7 @@ function HeroSection() {
             <p className="mb-8 font-semibold ">
               Student | Computer Science and Engineering | Ahsanullah University of Science and Technology
             </p>
+            
             <div className="flex justify-center">
                 <SocialMediaLink />
               {/* <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
