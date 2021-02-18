@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
     <>
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div 
-        className="h-screen bg-white font-mono dark:bg-gray-800 "
+        className="bg-white font-mono dark:bg-gray-800 "
         style={{
           margin: `0 auto`,
         }}

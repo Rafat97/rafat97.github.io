@@ -22,8 +22,8 @@ function HeroSection() {
 
   return (
     <>
-      <section className="text-gray-600 dark:text-gray-300 ">
-        <div className="container mx-auto flex px-5 py-10 items-center justify-center flex-col">
+      <section className="h-screen text-gray-600 dark:text-gray-300 dark:bg-gray-800 ">
+        <div className="h-screen container mx-auto flex px-5 py-10 items-center justify-center flex-col">
           <Img
             fluid={profilePicImage.file.childImageSharp.fluid}
             className="lg:w-1/6 md:w-2/6 w-3/6 mb-10 object-cover object-center rounded-full"
