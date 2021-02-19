@@ -26,7 +26,7 @@ const ThemeSwitch = () => {
     }
   }
   return (
-    <div className="flex justify-between items-center pt-3 pr-10">
+    <div className="flex justify-between items-center py-3 pr-10">
       <div></div>
       <div></div>
       <div>
