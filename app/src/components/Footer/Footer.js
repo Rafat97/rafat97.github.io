@@ -38,7 +38,7 @@ const Footer = () => {
           <p className="text-sm sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">
             ©{ new Date().getFullYear() } Emdadul Haque Rafat —
             <a
-              href="https://github.com/Rafat97"
+              href="https://rafat97.github.io/"
               className="text-blue-600 ml-1"
               rel="noopener noreferrer"
               target="_blank"

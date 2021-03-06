@@ -8,7 +8,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons"
 
-import Socialmedia from "../../images/HeroSection/socialmedia.json"
+import Socialmedia from "../../static/HeroSection/socialmedia.json"
 
 const SocialMediaLink = () => {
   return (

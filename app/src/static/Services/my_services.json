@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Blog",
+        "description": "This is my personal blog website. In this website, you can see my blog. I was sharing my technical knowledge personal in this website.",
+        "image_link":"https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/random/blog.png",
+        "redirect_url":"https://rafat97-blogs.vercel.app/"
+    },
+    {
+        "title": "Portfolio",
+        "description": "This is my portfolio website. In this website you can see my portfolio. I was portrait my professional experience in this site.",
+        "image_link":"https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/random/job.png",
+        "redirect_url":"https://rafat97.github.io/portfolio"
+    }
+]
